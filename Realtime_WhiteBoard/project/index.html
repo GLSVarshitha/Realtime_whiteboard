@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <!-- <a href="./image.jpg" download="image.jpg">Download</a> -->
+  <div class="toolbar">
+    <div class="cross">Cross</div> 
+    <div class="toolbar-options">
+      <div class="tool" id="pencil">
+         <img src="./NewIcons/Black_Pencil.svg" alt="" class="tool-img">
+      </div>
+      <div class="tool" id="eraser">
+        <img src="./NewIcons/Eraser.svg" alt="" class="tool-img">
+      </div>
+      <div class="tool" id="sticky">
+        <img src="./NewIcons/StickyNote.svg" alt="" class="tool-img">
+      </div>
+      <div class="tool" id="upload">
+        <img src="./NewIcons/Photo.svg" alt="" class="tool-img">
+      </div>
+      <div class="tool" id="download">
+        <img src="./NewIcons/Download.svg" alt="" class="tool-img">
+      </div>
+      <div class="tool" id="undo">
+        <img src="./NewIcons/Undo.svg" alt="" class="tool-img">
+      </div>
+      <div class="tool" id="redo">
+        <img src="./NewIcons/Redo.svg" alt="" class="tool-img">
+      </div>
+      <input type="file" class="input-tag">
+    </div>
+  </div>
+  <!-- <div class="sticky">
+    <div class="nav">
+      <div class="close">X</div>
+      <div class="minimise">min</div>
+    </div>
+    <textarea class="text-area" id=""></textarea>
+  </div> -->
+  <canvas id="board"></canvas>
+  <script src="tools.js"></script>
+</body>
+</html>
